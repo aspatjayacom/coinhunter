@@ -6,7 +6,7 @@ import hashlib
 import ecdsa
 import base58
 
-def generate_wallets(number_of_wallets=20):
+def generate_wallets(number_of_wallets=100):
     wallets = []
     for _ in range(number_of_wallets):
         private_key = generate_private_key()
